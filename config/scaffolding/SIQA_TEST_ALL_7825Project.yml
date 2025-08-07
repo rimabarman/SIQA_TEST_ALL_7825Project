@@ -8,6 +8,14 @@ packages:
   gitUsername: rimabarman
   gitBranch: main
 services:
+- serviceName: project.siqa_test_all_7825.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:DBInsertNew
+  packages:
+  - name: SIQA_TEST_ALL_7825Project
+    version: "1.0"
+- serviceName: project.siqa_test_all_7825.integrations:SIQAAdapterFlow
+  packages:
+  - name: SIQA_TEST_ALL_7825Project
+    version: "1.0"
 - serviceName: project.siqa_test_all_7825.integrations:deepclonetest
   packages:
   - name: SIQA_TEST_ALL_7825Project
@@ -15,12 +23,12 @@ services:
 - serviceName: pub.string:stringToBytes
   packages:
   - name: WmPublic
-    version: 11.1.0.0.2074
+    version: 11.1.0.0.2076
 - serviceName: pub.utils:deepClone
   packages:
   - name: WmPublic
-    version: 11.1.0.0.2074
+    version: 11.1.0.0.2076
 - serviceName: pub.string:bytesToString
   packages:
   - name: WmPublic
-    version: 11.1.0.0.2074
+    version: 11.1.0.0.2076
